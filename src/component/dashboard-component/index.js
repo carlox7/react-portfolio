@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import HeaderComp from '../header-comp';
+import SkillList from '../skill-list-comp';
 
 class Dashboard extends Component {
 
@@ -6,6 +8,8 @@ class Dashboard extends Component {
     return(
       <div>
         <h1>dashboard</h1>
+        <HeaderComp />
+        <SkillList />
       </div>
     );
   }
