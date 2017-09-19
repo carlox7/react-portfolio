@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import {ListGroup, ListGroupItem, Row, Col, Grid, Image} from 'react-bootstrap';
 import './_skill-list.scss';
+import FontAwesome from 'react-fontawesome';
+
 
 class SkillList extends Component {
   render(){
@@ -9,7 +11,7 @@ class SkillList extends Component {
         <Grid>
           <Row className="show-grid">
             <Col sm={6} md={4}>
-              <i className="fa fa-apple" aria-hidden="true"></i>
+            
             </Col>
             <Col sm={6} md={4}>
               <ListGroup id="skills">
