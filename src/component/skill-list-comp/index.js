@@ -11,11 +11,11 @@ class SkillList extends Component {
         <Grid>
           <Row className="show-grid">
             <Col sm={6} md={4}>
-            
+
             </Col>
             <Col sm={6} md={4}>
               <ListGroup id="skills">
-                <ListGroupItem href="#" active>Skills</ListGroupItem>
+                <ListGroupItem href="http://vignette2.wikia.nocookie.net/marvelvscapcom/images/f/fa/Mvcpic1.png/revision/latest?cb=20101229135421" active>Skills</ListGroupItem>
                 <ListGroupItem href="#">JavaScript</ListGroupItem>
                 <ListGroupItem href="#">MongoDB</ListGroupItem>
                 <ListGroupItem href="#">Express</ListGroupItem>
