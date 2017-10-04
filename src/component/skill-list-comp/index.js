@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {ListGroup, ListGroupItem, Row, Col, Grid, Image} from 'react-bootstrap';
+import {ListGroup, ListGroupItem, Row, Col, Grid, Image, Button} from 'react-bootstrap';
 import './_skill-list.scss';
 import FontAwesome from 'react-fontawesome';
 
@@ -11,11 +11,13 @@ class SkillList extends Component {
         <Grid>
           <Row className="show-grid">
             <Col sm={6} md={4}>
-
+              <span className='fa-stack fa-lg'>
+                <FontAwesome name='twitter' stack='1x' />
+              </span>
             </Col>
             <Col sm={6} md={4}>
               <ListGroup id="skills">
-                <ListGroupItem href="http://vignette2.wikia.nocookie.net/marvelvscapcom/images/f/fa/Mvcpic1.png/revision/latest?cb=20101229135421" active>Skills</ListGroupItem>
+                <ListGroupItem href="#" active>Skills</ListGroupItem>
                 <ListGroupItem href="#">JavaScript</ListGroupItem>
                 <ListGroupItem href="#">MongoDB</ListGroupItem>
                 <ListGroupItem href="#">Express</ListGroupItem>
@@ -29,6 +31,7 @@ class SkillList extends Component {
             </Col>
           </Row>
         </Grid>
+        <p><Button bsStyle="primary" href="#about">Scroll</Button></p>
 
       </div>
     );
