@@ -1,11 +1,15 @@
 #about{
   width: 100%;
   height: 400px;
-  background-color: #245998;
+  background: -webkit-linear-gradient( #245998, #001433);
   color: #ffffff;
   text-align: center;
 }
 
 #blurb{
   font-size: 1.5em;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 85%;
+
 }

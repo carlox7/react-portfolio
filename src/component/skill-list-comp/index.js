@@ -31,7 +31,6 @@ class SkillList extends Component {
             </Col>
           </Row>
         </Grid>
-        <p><Button bsStyle="primary" href="#about">Scroll</Button></p>
 
       </div>
     );

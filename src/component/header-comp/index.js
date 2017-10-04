@@ -16,7 +16,6 @@ class HeaderComp extends Component {
             <Jumbotron id="header">
               <h1>Carlo Santos</h1>
               <p>Web Developer</p>
-              <p><Button bsStyle="primary" href="#skills">Scroll</Button></p>
             </Jumbotron>
           </header>
         </div>
