@@ -9,11 +9,14 @@ class HeaderComp extends Component {
       <div>
         <div id="splash">
 
+          <div id="profile-pic">
+            <Image id="pic-container" src="src/pics/profile.jpg" circle />
+          </div>
           <header id="title">
             <Jumbotron id="header">
               <h1>Carlo Santos</h1>
               <p>Web Developer</p>
-              <p><Button bsStyle="primary">Learn more</Button></p>
+              <p><Button bsStyle="primary" href="#skills">Scroll</Button></p>
             </Jumbotron>
           </header>
         </div>
