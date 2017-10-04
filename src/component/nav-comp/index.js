@@ -16,6 +16,7 @@ class Navigation extends Component {
         </Navbar.Header>
         <Navbar.Collapse>
           <Nav>
+            <Navbar.Toggle />
             <NavItem eventKey={1} href="">GitHub</NavItem>
             <NavItem eventKey={2} target="_blank" href="https://www.linkedin.com/in/carlo-steven-santos/">LinkedIn</NavItem>
             <NavDropdown eventKey={3} title="Browse" id="basic-nav-dropdown">
