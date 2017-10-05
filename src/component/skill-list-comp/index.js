@@ -11,9 +11,6 @@ class SkillList extends Component {
         <Grid>
           <Row className="show-grid">
             <Col sm={6} md={4}>
-              <span className='fa-stack fa-lg'>
-                <FontAwesome name='twitter' stack='1x' />
-              </span>
             </Col>
             <Col sm={6} md={4}>
               <ListGroup id="skills">
@@ -27,7 +24,6 @@ class SkillList extends Component {
               </ListGroup>
             </Col>
             <Col sm={6} md={4}>
-              <Image src="http://vignette2.wikia.nocookie.net/marvelvscapcom/images/f/fa/Mvcpic1.png/revision/latest?cb=20101229135421" />
             </Col>
           </Row>
         </Grid>
