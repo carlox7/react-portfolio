@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "react portfolio",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/carlox7/react-portfolio.git",
   "author": "Carlo Santos <carlox7@gmail.com>",
   "license": "MIT",

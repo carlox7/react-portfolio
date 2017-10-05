@@ -10,7 +10,7 @@ class HeaderComp extends Component {
         <div id="splash">
 
           <div id="profile-pic">
-            <Image id="pic-container" src="/src/pics/profile.jpg" circle />
+            <Image id="pic-container" src="src/pics/profile.jpg" circle />
           </div>
           <header id="title">
             <Jumbotron id="header">
