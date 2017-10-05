@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {Grid, Thumbnail, Button, Row, Col, PageHeader} from 'react-bootstrap';
 import FontAwesome from 'react-fontawesome';
 import './_project_component.scss';
+import Steam from '../../pics/steam.png';
+import PseudoPet from '../../pics/pet.png';
+import Guess from '../../pics/guess.png';
 
 class Projects extends Component{
   render(){
@@ -17,7 +20,7 @@ class Projects extends Component{
         <Grid id="grid">
           <Row>
             <Col xs={6} md={4}>
-              <Thumbnail src="/src/pics/steam.png" alt="242x200">
+              <Thumbnail src={Steam} alt="242x200">
                 <h3>Do You Even Steam</h3>
                 <p>Description</p>
                 <p>
@@ -41,7 +44,7 @@ class Projects extends Component{
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src="/src/pics/pet.png" alt="242x200">
+              <Thumbnail src={PseudoPet} alt="242x200">
                 <h3>Pseudo-Pet</h3>
                 <p>Description</p>
                 <p>
@@ -65,7 +68,7 @@ class Projects extends Component{
               </Thumbnail>
             </Col>
             <Col xs={6} md={4}>
-              <Thumbnail src="/src/pics/guess.png" alt="242x200">
+              <Thumbnail src={Guess} alt="242x200">
                 <h3>Guess Work</h3>
                 <p>Description</p>
                 <p>
