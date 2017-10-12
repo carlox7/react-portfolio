@@ -51,9 +51,9 @@ class Projects extends Component{
               <Thumbnail src={PseudoPet} alt="242x200">
                 <h3>Pseudo-Pet</h3>
                 <p>
-                  This app was made to simulate a pet that kids could care for in order to develop responsibilites needed for a real pet.
-                   Twilio was used to text the child when the pet needed care and Parents were given a stats page to track a childs progess.
-                   This app was built with Angular, MongoDB, and Twilio.
+                  This app was made to simulate a pet that kids could care for in order to develop responsibilities
+                  needed for a real pet. Twilio was used to text the child when the pet needed care and Parents were given
+                   a stats page to track a child's progress. This app was built with Angular, MongoDB, and Twilio.
                 </p>
                 <p>
                   <Button href="https://paw-sibilites-frontend.herokuapp.com/#!/join#signup" target="_blank">
