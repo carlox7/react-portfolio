@@ -10,8 +10,9 @@ class Projects extends Component{
   render(){
     return(
       <div id="projects">
-        <PageHeader id="proj-head">Projects</PageHeader>
+        <h2>Projects</h2>
         <FontAwesome
+          id="icon-section"
           className='fa-suitcase'
           name='suitcase'
           size='5x'

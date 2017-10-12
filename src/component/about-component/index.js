@@ -10,8 +10,9 @@ class About extends Component{
   render(){
     return(
       <div id="about">
-        <PageHeader>About</PageHeader>
+        <h2>About</h2>
         <FontAwesome
+          id="icon-section"
           className='fa-user-circle-o'
           name='user'
           size='5x'

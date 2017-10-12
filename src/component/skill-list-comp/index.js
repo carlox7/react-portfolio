@@ -7,7 +7,7 @@ import FontAwesome from 'react-fontawesome';
 class SkillList extends Component {
   render(){
     return(
-      <div>
+      <div id="skills">
         <Grid>
           <Row className="show-grid">
             <Col sm={6} md={4}>
@@ -15,12 +15,14 @@ class SkillList extends Component {
             <Col sm={6} md={4}>
               <ListGroup id="skills">
                 <ListGroupItem href="#" active>Skills</ListGroupItem>
-                <ListGroupItem href="#">JavaScript</ListGroupItem>
-                <ListGroupItem href="#">MongoDB</ListGroupItem>
-                <ListGroupItem href="#">Express</ListGroupItem>
-                <ListGroupItem href="#">Angular</ListGroupItem>
-                <ListGroupItem href="#">Node</ListGroupItem>
-                <ListGroupItem href="#">React</ListGroupItem>
+                <ListGroupItem>JavaScript</ListGroupItem>
+                <ListGroupItem>MongoDB</ListGroupItem>
+                <ListGroupItem>Express</ListGroupItem>
+                <ListGroupItem>Angular</ListGroupItem>
+                <ListGroupItem>Node</ListGroupItem>
+                <ListGroupItem>React</ListGroupItem>
+                <ListGroupItem>Redux</ListGroupItem>
+
               </ListGroup>
             </Col>
             <Col sm={6} md={4}>
